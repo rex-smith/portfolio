@@ -13,7 +13,7 @@ nav {
   display: flex;
   align-items: center;
   padding-left: 10px;
-  background-color: mediumseagreen;
+  background-color: rgba(158, 72, 239, 0.821);
   color: white;
   font-size: 2rem;
   height: 50px;
@@ -21,11 +21,11 @@ nav {
 }
 
 .nav-title {
-  
+  width: auto;
 }
 
 .title-first {
-
+  color: white;
 }
 
 .title-second {
@@ -40,17 +40,25 @@ nav {
   display: none;
 }
 
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(158, 72, 239, 0.821);
+  border-bottom: 10px double rgb(239, 145, 30);
+  margin-bottom: 10px;
+}
+
 .main-content {
   margin: 0px auto;
   max-width: 900px;
 }
 
-.about {
-  margin: 24px;
+.about-content {
+  color: rgb(110, 110, 110);
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -62,15 +70,15 @@ h1 {
   margin-bottom: 0;
 }
 
-.projects-section {
-  display: flex;
-  flex-direction: column;
-  margin: 2px;
-  flex-wrap: wrap;
+.section-container {
+  margin: 24px;
 }
 
-.projects-section-title {
-  margin-bottom: 10px;
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: wrap;
 }
 
 .project-container {
@@ -85,21 +93,24 @@ h1 {
 .project-image {
   
 }
+
 .project-title {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 0;
+  color: rgba(158, 72, 239, 0.821);
 }
 .project-content p {
-  
+  color: rgb(110, 110, 110);
 }
 
 .contact-container {
   max-width: 900px;
+  margin: 24px;
 }
 
 .contact-content {
-
+  color: rgb(110, 110, 110);
 }
 
 button {
